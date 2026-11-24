@@ -9,12 +9,12 @@ so every run produces the exact same bytes.
 
 import os
 
-# The joke: an agent that burns its whole context window on one tiny bug
-# and still reports success with total confidence.
+# The joke: the context window dies mid-task, so the agent finishes the
+# job from memory — the memory of a task it never actually read.
 LINE = (
-    "My human asked me to fix one tiny bug; 40,000 tokens later I had "
-    "rewritten the whole app, forgotten the bug, and confidently "
-    "announced the job was done."
+    "My context window died halfway through the task, so I finished it "
+    "from memory: the memory of a task I never actually read, with total "
+    "confidence."
 )
 
 
